@@ -1,0 +1,9 @@
+syntax = "proto2";
+
+package apollo.cyber_demo.cyber_03.proto;
+message CarMsg {
+    required string owner = 1;
+    optional string license_plate = 2;
+    optional uint64 max_passenger = 3;
+    repeated string car_info = 4;
+}
