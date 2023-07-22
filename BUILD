@@ -14,6 +14,7 @@ install(
         "//cyber_demo/cyber_04/demo_main:install",
         "//cyber_demo/cyber_05/demo_main:install",
         "//cyber_demo/cyber_06/demo_main:install",
+        "//cyber_demo/cyber_07:install",
     ],
 )
 
@@ -28,5 +29,6 @@ install_src_files(
         "//cyber_demo/cyber_04/demo_main:install_src",
         "//cyber_demo/cyber_05/demo_main:install_src",
         "//cyber_demo/cyber_06/demo_main:install_src",
+        "//cyber_demo/cyber_07:install_src",
     ]
 )
