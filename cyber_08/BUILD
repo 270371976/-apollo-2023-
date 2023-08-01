@@ -6,6 +6,7 @@ cc_binary(
     name = "camera_driver",
     srcs = ["camera_driver.cc"],
     deps = ["//cyber",
+            "//modules/common_msgs/sensor_msgs:sensor_image_cc_proto",
             ], 
 )
 
